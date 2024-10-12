@@ -45,8 +45,8 @@ a{
 .container{
     max-width: 1080px;
     margin-inline: auto;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* top-banner */
@@ -89,7 +89,7 @@ ul{
     transition: 0.2s ease-out;
 }
 
-.sign-up-btn{
+.primary-btn{
     background-color: rgb(105, 205, 255);
     border-radius: 6px;
     font-weight: 700;
@@ -99,12 +99,12 @@ ul{
     transition: 0.2s ease-out;
 }
 
-.sign-up-btn:hover{
+.primary-btn:hover{
     background-color: #5a6ef4;
     color: white;
 }
 
-.sign-in-btn{
+.secondary-btn{
     border: 0.5px solid rgb(84, 219, 253);
     border-radius: 6px;
     font-weight: 700;
@@ -113,6 +113,38 @@ ul{
     transition: 0.2s ease-out;
 }
 
-.sign-in-btn:hover{
+.secondary-btn:hover{
     color:#2aa4e6;
+}
+
+/* header */
+header{
+    padding: 50px 50px;
+}
+
+.header-section{
+    justify-content: center;
+    gap: 50px;
+}
+
+.header-right>img{
+    width: 400px;
+}
+
+.header-left{
+    width: 40vw;
+}
+
+.header-left>h1{
+    margin-top: 20px;
+}
+
+.get-started-btn{
+    margin: 20px;
+}
+
+.container-header{
+    color: black !important;
+    display: flex;
+    justify-content: center;
 }
