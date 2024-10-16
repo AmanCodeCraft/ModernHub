@@ -1,9 +1,5 @@
 @media screen and (max-width:992px){
     /* for tablet screen */
-    h3{
-        font-size: 1.3rem;
-    }@media screen and (max-width:992px){
-    /* for tablet screen */
     h3{                                 
         font-size: 1.3rem;
     }
@@ -55,7 +51,8 @@
 }
 
 @media (min-width: 300px) and (max-width: 480px) {
-    /* Styles for Android phone screens */
+    /* Styles for phone screens */
+  
     .company-logo>img {
         width: 150px;
     }
@@ -231,188 +228,5 @@
         border-radius: 8px;
         font-weight: 600;
         padding: 8px 20px;     
-    }
-}
-
-
-    h4{
-        font-size: 1.4rem;
-    }
-
-    .nav-toggle{
-        display: block;
-        margin-right:20px;
-    }
-
-    .nav-link{
-        display: none;
-    }
-
-    .example-card{
-        width: 70%;
-        height: 150px;
-    }
-
-    .examples-area{
-        gap: 20px;
-    }
-
-    footer{
-        padding-block:20px;
-    }
-
-}
-
-@media (min-width: 300px) and (max-width: 480px) {
-    /* Styles for Android phone screens */
-    .company-logo>img {
-        width: 150px;
-    }
-    
-    .logo {
-        height: 28px;
-    }
-
-    h1{
-    font-size: 1.3rem;
-    }
-
-    h2{
-    font-size: 0.8rem;
-    }
-
-    h4{
-        font-size: 1rem;
-    }
-
-    .feature-card>h3{
-        font-size: 1rem;
-    }
-
-    .lists>a{
-        font-size: 0.8rem;
-    }
-
-    .lists{
-        align-items: center;
-    }
-
-    .small-text{
-        font-size: .85rem;
-        text-align: center;
-    }
-    .primary-btn{
-        font-weight:300;
-        padding: 10px 16px;
-        width: 95%;
-    }
-
-    p {
-        margin-top: 5px;
-        font-size: 0.7rem;
-        line-height: 1.1rem;
-    }
-    
-    .cta-container>p{
-        font-size: 0.7rem;
-        margin: 0;
-    }
-
-    .nav-toggle {
-        margin-right: 5px;  
-    }
-    
-    .get-started-btn {
-        margin: 10px;
-    }
-
-    header{
-        padding: 10px 10px;
-    }
-
-    .header-left{
-        text-align: center;
-        width: 90%;
-    }
-
-    .header-left>h1{
-        margin-top: 10px;
-        font-size: 1.6rem;
-    }
-
-    #ptag{
-        font-size: 0.8rem;
-    }
-    .container{
-        max-width: 1080px;
-        margin-inline: auto;
-        padding-left: 8px;
-        padding-right: 8px;
-        overflow: hidden;
-    }
-    
-    .header-section{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .big-feauture-section{
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .features-area {
-        gap: 20px;
-        margin-top: 20px;
-        flex-direction: column;
-    }
-
-    .features-section{
-        padding: 20px 5px 0px;
-    }
-
-    .feature-card{
-        max-width: 90%;
-    }
-
-    .pic{
-        height: 40px;
-    }
-
-    .feature-card>p{
-        font-size: .9rem;
-    }
-
-    .big-feature-section{
-        padding: 15px 15px 0px;
-    }
-
-    .feature-img>img{
-        width: 100%;
-    }
-    .cta-section {
-        padding: 20px;
-    }
-
-    .footer-1{
-        flex-direction: column;
-        gap: 25px;
-        align-items: center;
-    }
-
-    .features-header{
-        margin-top: 30px;
-        gap: 20px;
-    }
-
-    .example-card {
-        width: 100%;
-        height: 64px;
-    }
-
-    .sub-footer-container>a{
-        font-size: 0.8rem;
     }
 }
