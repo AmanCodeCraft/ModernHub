@@ -21,7 +21,7 @@
             <a class="company-logo">
                 <img src="./images/asset 1.png" alt="logo">
             </a>
-            <div class="nav-link">
+            <div class="nav-link" id="nav-link">
                 <ul class="flex">
                     <li><a href="#" class="hover-link">Products</a></li>
                     <li><a href="#" class="hover-link">Custormer</a></li>
@@ -31,7 +31,7 @@
                     <li><a href="#" class="hover-link primary-btn">Sign In</a></li>
                 </ul>
             </div>
-            <a href="#" class="nav-toggle hover-link">
+            <a href="#" class="nav-toggle hover-link" id="nav-toggle">
                 <i class="fa-solid fa-bars"></i>
             </a>
         </div>
@@ -119,11 +119,11 @@
             <div class="feature-dsc flex">
                 <h4>Effortless Validation for</h4>
                 <h3>Design Professionals</h3>
-                <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
+                <p class="">Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
             </div>
         </div>
 
-        <div class="container flex big-feauture-section">
+        <div class="container flex big-feauture-section direction">
             <div class="feature-dsc">
                 <h4>Optimisation for</h4>
                 <h3>Marketers</h3>
@@ -222,5 +222,14 @@
             <a href="#"><i class="fa-brands fa-square-twitter hover-link"></i></a>
         </div>
     </div>
+
+    <script>
+        const toggleButton=document.getElementById('nav-toggle');
+        const navLinks=document.getElementById('nav-link');
+
+        toggleButton.addEventListener('click',()=>{
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
